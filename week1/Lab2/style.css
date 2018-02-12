@@ -39,3 +39,21 @@ li a:hover{
 
 .active{
   background-color: #4CAF50
+
+.column{
+  float: left;
+  width: 50%;
+}
+
+
+.row:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px){
+  .column{
+    width:100%;
+  }
+}
