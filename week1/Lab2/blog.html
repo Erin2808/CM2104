@@ -1,65 +1,44 @@
 <!doctype html>
 <html>
+
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
     <title>Blog</title>
   </head>
+
   <body>
 
-    <div class="header">
+    <header id="pageHeader">
       <img src="the-blog.png" id="SiteLogo"/>
       <h1 id="SiteTitle">Erin Watson</h1>
-    </div>
+    </header>
 
-    <div class="topnav">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </div>
+    <nav id=siteNav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
 
-  <div class="row">
-    <div class="leftColumn">
-      <div class="card">
-        <h2>Title Heading</h2>
-        <h5>Title Description & post date</h5>
-        <div class="fakeImg" style="height:200px;">Image</div>
-        <p>Some text......</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est
-          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
-           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-           nostrud exercitation ullamco.</p>
-      </div>
-
-    <div class="card">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2017</h5>
-          <div class="fakeImg" style="height:200px;">Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <section id="pageContent">
+      <article class="blogPost">
+        <header>
+          <h1 class="BlogPostTitle">Blog Post Title</h1>
+          <time class="BlogPostDate" pubdate="pubdate">2018-02-13</time>
+        </header>
+        <div class="BlogPostContent">
+          <p>Lorem ipsum dolor sit amet, mel ea virtute utroque praesent,
+            alii similique te pri, pri dictas offendit eu. Regione graecis
+            et pro, id has liber moderatius, oblique commune pertinacia ne nec.</p>
         </div>
-    </div>
-    <div class="rightColumn">
-      <div class="card">
-      <h2>About Me</h2>
-      <div class="fakeImg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    </div>
-      <div class="card">
-        <h3>Popular Post</h3>
-        <div class="fakeImg"><p>Image</p></div>
-        <div class="fakeImg"><p>Image</p></div>
-        <div class="fakeImg"><p>Image</p></div>
-      </div>
-      <div class="card">
-        <h3>Follow Me</h3>
-        <p>Some text...</p>
-      </div>
-    </div>
+      </article>
+    </section>
 
-    <div class="footer">
-      <h2>Footer</h2>
-    </div>
+      <footer id="footer">
+        <a href="#">Legal Stuff</a>
+      </footer>
 
   </body>
 </html>
