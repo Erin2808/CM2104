@@ -37,8 +37,10 @@ li a:hover{
 #SiteLogo{
   width: 100px;
   height: 100px;
+  position: static;
 }
 
-#pageHeader{
+#SiteTitle{
   text-align: center;
+  position: absolute;
 }
