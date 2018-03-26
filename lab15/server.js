@@ -19,7 +19,7 @@ app.get('/all', function(req, res){
 
     var output = "<h1>All the Quotes</h1>";
 
-    for (var i = 0; i < results.length; i++) {
+    for (var i = 0; i < result.length; i++) {
       output += "<div>"
       output += "<h3>" + result[i].name + "</h3>"
       output += "<p>" + result[i].quote + "</p>"
