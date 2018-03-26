@@ -13,7 +13,7 @@ MongoClient.connect(url, function(err, database){
   app.listen(8080);
 });
 
-app.get('/all', funciton(req, res){
+app.get('/all', function(req, res){
   db.collection('quotes').find().toArray(function(err, result) {
     if (err) throw err;
 
